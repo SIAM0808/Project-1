@@ -1,0 +1,403 @@
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin: 0px;
+    background-color: rgb(11, 11, 11);
+}
+.amazon{
+    height: 80px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+}
+.amazon:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.nav-address{
+    color:aliceblue;
+    height: 80px;
+    width: 100px;
+}
+.nav-address p{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.nav-address:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.nav-search{
+    height:80px;
+    width: 600px;
+    display: flex;justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+  .nav-search select{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(190, 198, 206);
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-search input{
+    height: 50px;
+    width: 450px;
+    background-color: azure;
+    font-size: 1rem;
+    border: none;
+  }
+  .nav-search button{
+    height: 50px;
+    width: 50px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+.nav-language select{
+    height: 80px;
+    width: 100px;
+    background-color: rgb(11,11,11);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.nav-language:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.sign-in{
+    height: 80px;
+    width: 100px;
+    color: white;
+}
+.sign-in select{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 0px;
+}
+.sign-in p{
+    margin-top: 30px;
+    text-align: center;
+}
+.sign-in select{
+    border: none;
+}
+.sign-in:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.return-orders{
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.return-orders:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 39px;
+    color: white;
+    height: 80px;
+    width: 100px;
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.nav-bottom{
+    background-color: rgb(3, 19, 33);
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    align-items: center;
+}
+.body-image{
+    height: 600px;
+    background-image: url("image_background.jpg");
+    background-size: cover;
+}
+.address{
+    margin-top: 10px;
+    text-align: center;
+}
+.nav-address i{
+    color: white;
+}
+.menu_all{
+    height: 50px;
+    width: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .all{
+    margin-left: 5px;
+}
+.menu_all:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.todays{
+    height: 50px;
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todays:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.customer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+}
+.customer:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.registery{
+    color: white;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registery:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.gift{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+}
+.gift:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.sell{
+    height: 50px;
+    width: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sell:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.gaming{
+    position: relative;
+    top: 300px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.hk{
+    margin-top: 30px;
+ height:170px;
+ background-color: white;
+ 
+}
+.head_keyboard{
+   
+   
+   height: 135px;
+   background-color: white;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.headsets{
+ height:80px;
+ width: 150px;
+ background-image: url(".gamingaccessories_headsets.jpg");
+ background-size: cover;
+}
+.keyboards{
+    height: 80px;
+    width: 150px;
+    background-image: url("gamingaccessories_keyboard.jpg");
+    background-size: cover;
+}
+.alink_head_key{
+    height: 10px;
+}
+.alink_head_key a{
+    text-decoration: none;
+    color: black;
+}
+.alink_head_key a:hover{
+    color: orange;
+
+}
+.mc{
+    height: 175px;
+    background-color: white;
+}
+.mice_chair{
+    height: 135px;
+   background-color: white;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.mice{
+    height:80px;
+ width: 150px;
+ background-image: url("gamingaccessories_mouse.jpg");
+ background-size: cover;
+}
+.chair{
+    height:80px;
+ width: 150px;
+ background-image: url("gamingaccessories_chair.jpg");
+ background-size: cover;
+}
+.alink_mice_chair{
+  height: 10px;
+}
+.alink_mice_chair a{
+    text-decoration: none;
+    color: black;
+}
+.alink_mice_chair a:hover{
+    color: orange;
+}
+.h2{
+    margin-top: 10px;
+}
+.electronics{
+    position: relative;
+    top: 300px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+.image_electronics{
+    height: 350px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-image: url("electronics.jpg");
+    background-size: cover;
+}
+.alink_electronics a{
+    text-decoration: none;
+    color: black;
+}
+.alink_electronics a:hover{
+    color: orange;
+}
+.home_kitchen{
+    position: relative;
+    top: 300px;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+}
+.home_kitchen a{
+    text-decoration: none;
+    color: black;
+}
+.home_kitchen a:hover{
+    color: orange;
+}
+.image_home{
+    height: 350px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    background-image: url("home_kitchen.jpg");
+    background-size: cover;
+}
+.sign_we{
+    position: relative;
+    top: 300px;
+    height: 400px;
+    width: 200px;
+    background-color: none;
+    border-radius: 5px;
+}
+.we{
+    height: 250;
+    width: 320px;
+    background-image: url("weshipover.jpg") ;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+.sign{
+    height: 130px;
+    width: 320px ;
+    border-radius: 5px;
+    background-color: white;
+}
+.sign button{
+    height: 30px;
+    width: 150px;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.sign button:hover{
+    font-size: 17px;
+    transition: all .2s ease-in;
+}
